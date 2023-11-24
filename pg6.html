@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Madhuram Bungalows - findmypg.com</title>
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="tabs.css">
+        <link rel="stylesheet" href="topbar.css">
+        <link rel="stylesheet" href="slideshow.css">
+        <link rel="stylesheet" href="reviews.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <h1>
+            findmypg.com
+        </h1>
+
+        <div class="navbar">
+            <a class="active" href="home_page.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <a href="pg.html">PG</a>
+
+            <div class="dropdown">
+                <button class="dropbtn">
+                  <i class="fa fa-caret-down"></i>
+                </button></a>
+                <div class="dropdown-content">
+                  <a href="#">Male</a>
+                  <a href="#">Female</a>
+                </div>
+            </div>
+
+            <a href="hostel.html">Hostel</a>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Girls</a>
+                    <a href="#">Boys</a>
+                </div>
+            </div>
+            <a href="pg.html">Contact Us</a>
+        </div>     
+        
+        <h2>
+            Madhuram Bungalows
+        </h2>
+
+        </div>
+        <div class="topbar">
+            <div class="topsec">
+                <img src="PG Data/6.jpg" alt="Madhuram Bungalows PG" width="100%">
+            </div>
+            
+            <div class="topsec">
+                <h3>Madhuram Bungalows PG</h3>
+                <img style="float:left; padding-left: 3%; padding-right: 2%; padding-bottom: 5%;" src="Others/location-map-pin.png" alt="Location" width="7%">
+                <p style="padding-bottom: 10%;">
+                    500m to Dharamsinh Desai University
+                </p>
+                <p style="float: none;">
+                    Ratings
+                </p>
+
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+
+                <!--img style="padding-left: 3%;"src="Stars/4.5.png" alt="4.5 Stars" width="50%"-->
+            </div>
+
+            <div class="topsec">
+                <div class="ac">
+                    <img src="Others/available-now.png" alt="Available Now" width="60%">
+                    <p><strong>Non-AC : <br>₹ 3,000/month</strong></p>
+                </div>
+                <div class="ac">
+                    <img src="Others/available-now.png" alt="Available Now" width="60%">
+                    <p><strong>AC Room : <br>₹ 4,000/month</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <button class="tablink" onclick="openPage('Info', this, 'rgb(9, 54, 57)')" id="defaultOpen">Info</button>
+        <button class="tablink" onclick="openPage('Photos', this, 'rgb(21, 43, 53)')">Photos</button>
+        <button class="tablink" onclick="openPage('Reviews', this, 'rgb(23, 38, 63)')">Reviews</button>
+
+        <div id="Info" class="tabcontent">
+            <h3>About Madhuram Bungalows PG</h3>
+            <span class="heading">Address</span>
+            <p>College Rd,<br>
+                Opp. Ayurvedic College,<br>
+                Nadiad,<br>
+                Gujarat 387001</p>
+            <span class="heading">Locality</span>
+            <p>Domino's Pizza<br>
+                Dharmsinh Desai University<br>
+                N.D.Desai Hospital.... etc<br>
+            </p>
+
+            <span class="heading">Facilities Provided Includes</span>
+            <div class="facility">
+                <p>
+                    Wi-fi Provided
+                    <img src="Others/wifi.png" alt="Wi-fi" width="5%"> 
+                </p>
+            </div>
+
+            <div class="facility">
+                <p>
+                    3 Meal Food Provided
+                    <img src="Others/food.png" alt="Food" width="8%"> 
+                </p>
+            </div>
+
+            <div class="facility">
+                <p>
+                    Parking Available
+                    <img src="Others/parking.png" alt="Parking" width="5%"> 
+                </p>
+            </div>
+        </div>
+
+        <div id="Photos" class="tabcontent">
+            <h3>Photos</h3>
+            <div class="container">
+                <div class="mySlides">
+                  <div class="numbertext">1 / 6</div>
+                  <img src="PG6/61.jpg" style="width:90%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">2 / 6</div>
+                  <img src="PG6/62.jpeg" style="width:90%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">3 / 6</div>
+                  <img src="PG6/63.jpg" style="width:90%">
+                </div>
+                  
+                <div class="mySlides">
+                  <div class="numbertext">4 / 6</div>
+                  <img src="PG6/64.jpg" style="width: 90%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">5 / 6</div>
+                  <img src="PG6/65.jpg" style="width:90%">
+                </div>
+                  
+                <div class="mySlides">
+                  <div class="numbertext">6 / 6</div>
+                  <img src="PG Data/6.jpg" style="width:90%">
+                </div>
+                  
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+              
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+              
+                <div class="row">
+                  <div class="column">
+                    <img class="demo cursor" src="PG6/61.jpg" style="width:100%" onclick="currentSlide(1)" alt="Room View 1">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="PG6/62.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Room View 2">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="PG6/63.jpg" style="width:100%" onclick="currentSlide(3)" alt="Outer View">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="PG6/64.jpg" style="width:100%" onclick="currentSlide(4)" alt="Room View 3">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="PG6/65.jpg" style="width:100%" onclick="currentSlide(5)" alt="Room View 4">
+                  </div>    
+                  <div class="column">
+                    <img class="demo cursor" src="PG Data/6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Room View 5">
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Reviews" class="tabcontent">
+            <h3>Reviews</h3>
+            <span class="heading">User Rating</span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p>4.1 average based on 254 reviews.</p>
+            <hr style="border:2px solid #e3c29e">
+
+            <div class="row">
+            <div class="side">
+                <div>5 star</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                <div class="bar-5"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div>150</div>
+            </div>
+            <div class="side">
+                <div>4 star</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                <div class="bar-4"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div>63</div>
+            </div>
+            <div class="side">
+                <div>3 star</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                <div class="bar-3"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div>15</div>
+            </div>
+            <div class="side">
+                <div>2 star</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                <div class="bar-2"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div>6</div>
+            </div>
+            <div class="side">
+                <div>1 star</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                <div class="bar-1"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div>20</div>
+            </div>
+            </div>
+        </div>
+        
+        <script src="tabs.js"></script>
+        <script src="ls.js"></script>
+
+        <h2>
+            Connect with us
+        </h2>
+        <div class="connect">
+            <h3>@findmypg</h3>
+            <img src="L1.png" alt="Instagram">
+        </div>
+
+        <div class="connect">
+            <h3>Find My PG</h3>
+            <img src="L2.png" alt="Youtube">
+        </div>
+        <div class="connect">
+            <h3>FindMy PG</h3>
+            <img src="L3.png" alt="Facebook">
+        </div>
+        <div class="connect">
+            <h3>@find_my_pg</h3>
+            <img src="L4.png" alt="Twitter">
+        </div>
+    </body>
+</html>

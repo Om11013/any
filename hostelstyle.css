@@ -1,0 +1,42 @@
+h2{
+    font-size: 130%;
+    font-family: Century Gothic;
+}
+div.gallery {
+    float: left;
+    margin: 1%;
+    width: 18%;
+}
+.rowgallery{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 37%;
+}
+div.gallery:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.gallery img {
+    width: 100%;
+}
+
+div.desc {
+    padding: 10%;
+    text-align: left;
+    padding-top: 21%;
+}
+h3{
+    font-size: 100%;
+    font-family: Century Gothic;
+}
+p{
+    font-family: Corbel;
+    color: grey;
+}
+
+h4{
+    font-size: 130%;
+    font-family: Century Gothic;
+    text-align: right;
+    margin-right: 2%;
+}
